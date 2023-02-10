@@ -7,6 +7,42 @@
     <title>Document</title>
 </head>
 <body>
-    
+
+    <!-- DOM => Document object model -->
+    <!-- <h1 id="rehan">Hello World</h1> -->
+
+    <!-- <input id="password" type="password"> <button onclick="passwordChange()">Show Password</button> -->
+
+
+    <button class="btn">Click Me</button>
+
+    <script>
+
+        let btn = document.querySelector('.btn')
+
+        btn.addEventListener('click', function() {
+            document.querySelector('body').style.background = 'skyblue'
+        })
+
+
+    //     function passwordChange() {
+
+    //     let password = document.getElementById('password')
+
+    //     if(password.type == 'password') {
+    //         password.type = 'text'
+    //     } else {
+    //         password.type = 'password'
+    //     }
+
+    // }
+
+
+        // let rehanElement = document.getElementById('rehan')
+        // rehanElement.title = "I am rehan";
+        // rehanElement.style.color = "red"
+        // console.log(rehanElement);
+
+    </script>
 </body>
 </html>
