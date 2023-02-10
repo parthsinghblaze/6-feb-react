@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <button onclick="greeting()">Show message</button> -->
+    <script>
+
+        // how to write variable and string in same variable 
+
+        // let firstName = "krupali"
+        // let lastName = "Patel"
+        // // console.log("My name is " + firstName + " and my name is " + lastName);
+        // console.log(`My name is ${firstName} and my last name is ${lastName}`)
+
+        // key : value 
+
+        let harshil = {
+            firstName: "harshil",
+            lastName: "Patel",
+            city: "Surat"
+        };
+
+        let dhruvang = {
+            firstName: 'Dhruvang',
+            lastName: "Patel",
+            city: "Valsad",
+            birthYear: 2002,
+            canDrive: false
+        };
+
+        let userInfo = {
+            firstName: "Krupali",
+            address: {
+                flatNo: 3,
+                roomNo: "D-4"
+            },
+            birthYear: 2000,
+            // age: function() {
+            //     return 2023 - userInfo.birthYear
+            // }
+            age: () => 2023 - userInfo.birthYear
+        }
+
+        console.log(userInfo.age())
+        console.log(userInfo.address.flatNo, userInfo.address.roomNo);
+
+        // console.log(dhruvang.firstName);
+        // console.log(dhruvang.lastName);
+
+        // FUNCTION
+
+        // creating a function
+        // function greeting() {
+        //     let userName = "Khushi";
+        //     console.log(`Hello Good Morning, ${userName}`);
+        // }
+
+
+        // greeting()
+        // greeting()
+        // greeting()
+
+
+        // function with return keyword
+
+        // function greeting() {
+        //     let userName = "Krupali"
+        //     return `My name is ${userName}`
+        // }
+
+        // console.log(greeting())
+
+        // function with parameter
+
+        console.log("==================")
+
+        // function functionName(para1, para2, ....) {
+        //     // block of code 
+        // }
+
+        // // to call an function
+        // functionName(...,...,...)
+
+        /*
+
+        function greetingMessage(username, lastName, age) {
+            // console.log(username, lastName, age);
+            console.log(`My name is ${username}`)
+        }
+
+        greetingMessage("krupali", "patel", 20);
+
+        greetingMessage("Harshil");
+
+        greetingMessage("Parth");
+
+        */
+
+    </script>
+</body>
+</html>
