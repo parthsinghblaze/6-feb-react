@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- and / or -->
+
+    <script>
+        let knowsHtml = false
+        let knowsCSS = false
+
+        if(knowsHtml || knowsCSS) {
+            console.log('yes you have completed WD')
+        } else {
+            console.log('no you haven`t completed WD')
+        }
+
+
+        // AND
+
+        // true , true => true
+        // true , false => false
+        // false, true => false
+        // false , false => false
+
+        // OR
+
+        // true, true => true
+        // true, false => true
+        // false, true => true
+        // false, false => false
+
+    </script>
+
+    <!-- 
+
+    <input type="number" placeholder="Enter your age"> <button onclick="checkAge()">Check</button>
+
+    <h1 id="message"></h1>
+
+    <script>
+        function checkAge() {
+            let inputBox = document.querySelector('input')
+            let message = document.querySelector('#message')
+
+            if(inputBox.value === '') {
+                inputBox.style.border = '2px solid red'
+                document.body.style.background = 'white'
+            } else if(inputBox.value >= 18) {
+                document.body.style.background = 'green'
+                inputBox.style.border = '1px solid black'
+                message.innerHTML = 'Yes, you can drive!'
+            } else {
+                document.body.style.background = 'red'
+                inputBox.style.border = '1px solid black'
+                message.innerHTML = "No, you can't drive!"
+            }
+
+        }
+    </script>
+
+     -->
+
+    <!-- 
+
+    <script>
+        // If condition
+
+        let age = 15;
+
+
+        if(18 < age) {
+            // if condition is true, this block of code will run
+            console.log("Yes you can drive!")
+        } else {
+            // if condition is false, this block of code will run
+            console.log("No you can't drive!")
+        }
+
+    </script>
+     -->
+
+</body>
+</html>
