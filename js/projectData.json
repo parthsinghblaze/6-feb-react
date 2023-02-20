@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Samsung galaxy S10",
+        "price": 10000,
+        "ram": "16gb"
+    },
+    {
+        "name": "Samsung galaxy S11",
+        "price": 40000,
+        "ram": "32gb"
+    },
+    {
+        "name": "Samsung galaxy S12",
+        "price": 90000,
+        "ram": "8gb"
+    },
+    {
+        "name": "Iphone 13 max",
+        "price": 99000,
+        "ram": "16gb"
+    },
+    {
+        "name": "Samsung galaxy S10",
+        "price": 10000,
+        "ram": "16gb"
+    }
+]
